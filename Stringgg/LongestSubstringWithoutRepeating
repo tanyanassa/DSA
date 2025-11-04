@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+string s;
+getline(cin,s);
+int count[26]={0};
+int i=0;
+for(int j=0;j<s.length();j++)
+{
+char ch=s[j];
+int index=ch-'a';
+count[index]++;
+}
+return 0;
+}
