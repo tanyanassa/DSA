@@ -23,7 +23,7 @@ cout<<"The Final Answer Is"<<endl;
 for(auto i : answer){cout<<" "<<i<<" ";}*/
 /*TC-O(N),SC-O(N)*//*as we are using a map data structure here in this case here only*/
 /*for an unordered map data structure*/
-map<int,int>mpp;
+/*map<int,int>mpp;
 vector<int>answer;
 int arr[8]={1,1,1,1,3,2,2,2};
 int n=8;
@@ -35,5 +35,5 @@ if(answer.size()==2){break;}
 } 
 cout<<"the answer vector is"<<endl;
 for(auto i : answer){cout<<" "<<i<<" ";}
-return 0;
+return 0;*/
 }
